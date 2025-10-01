@@ -1,12 +1,13 @@
-/// @description Initiate server variable
+/// @description Init Client Variables
 
 playerList = [];
 
 steamID = steam_get_user_steam_id();
 steamName =steam_get_persona_name();
-lobbyMemberID = 0;
-
+lobbyMemberID = undefined;
 character = undefined;
+
+inbuf = buffer_create(16,buffer_grow,1); // The in buffer
 
 playerList[0] = {
 	steamID : steamID,

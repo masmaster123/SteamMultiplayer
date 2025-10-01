@@ -62,6 +62,8 @@
     {"id":{"name":"rm_GameRoom","path":"rooms/rm_GameRoom/rm_GameRoom.yy",},},
     {"id":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
     {"id":{"name":"Input","path":"scripts/Input/Input.yy",},},
+    {"id":{"name":"LobbyManagementClient","path":"scripts/LobbyManagementClient/LobbyManagementClient.yy",},},
+    {"id":{"name":"LobbyManagementServer","path":"scripts/LobbyManagementServer/LobbyManagementServer.yy",},},
     {"id":{"name":"Packets","path":"scripts/Packets/Packets.yy",},},
     {"id":{"name":"PlayerManagement","path":"scripts/PlayerManagement/PlayerManagement.yy",},},
     {"id":{"name":"PlayerMovement","path":"scripts/PlayerMovement/PlayerMovement.yy",},},
