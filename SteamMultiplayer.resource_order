@@ -22,6 +22,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_Bullet","order":1,"path":"objects/obj_Bullet/obj_Bullet.yy",},
+    {"name":"obj_ButtonHostLobby","order":4,"path":"objects/obj_ButtonHostLobby/obj_ButtonHostLobby.yy",},
+    {"name":"obj_ButtonJoinLobby","order":5,"path":"objects/obj_ButtonJoinLobby/obj_ButtonJoinLobby.yy",},
     {"name":"obj_Entity","order":2,"path":"objects/obj_Entity/obj_Entity.yy",},
     {"name":"obj_Game","order":13,"path":"objects/obj_Game/obj_Game.yy",},
     {"name":"obj_LobbyItem","order":3,"path":"objects/obj_LobbyItem/obj_LobbyItem.yy",},
@@ -33,6 +35,7 @@
     {"name":"obj_Wall","order":3,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"rm_GameRoom","order":1,"path":"rooms/rm_GameRoom/rm_GameRoom.yy",},
     {"name":"Input","order":1,"path":"scripts/Input/Input.yy",},
+    {"name":"PlayerManagement","order":3,"path":"scripts/PlayerManagement/PlayerManagement.yy",},
     {"name":"PlayerMovement","order":2,"path":"scripts/PlayerMovement/PlayerMovement.yy",},
     {"name":"spr_Ball","order":4,"path":"sprites/spr_Ball/spr_Ball.yy",},
     {"name":"spr_Bullet","order":6,"path":"sprites/spr_Bullet/spr_Bullet.yy",},

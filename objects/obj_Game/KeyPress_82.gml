@@ -1,2 +1,3 @@
 ///// @description Restart Game
-game_restart();
+//this logic is moved to obj_steam
+//game_restart();
