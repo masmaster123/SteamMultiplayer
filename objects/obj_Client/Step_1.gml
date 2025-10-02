@@ -52,7 +52,9 @@ while(steam_net_packet_receive()){
 			recieve_player_input(inbuff); // Update keypresses
 			break;
 		
-		
+		case NETWORK_PACKETS.PLAYER_POSITION:
+			update_player_position(inbuff);
+			break;
 		
 		
 		default:
