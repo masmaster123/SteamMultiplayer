@@ -1,6 +1,6 @@
 /// @description Spawn Players
 
-var _playerLayer = layer_get_id("Instances")
+var _playerLayer = layer_get_id("Instances");
 
 for(var _player = 0; _player < array_length(playerList); _player++){
 	var _pos = grab_spawn_point(_player);
