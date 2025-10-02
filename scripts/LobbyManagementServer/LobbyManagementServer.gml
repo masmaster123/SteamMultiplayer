@@ -95,7 +95,7 @@ function send_player_positions(){
 		buffer_write(_b, buffer_u16, _player.character.x);//2
 		buffer_write(_b, buffer_u16, _player.character.y);//2
 		for(var _k = 0; _k < array_length(playerList); _k++){
-			if(playerList[_k].steamTD != obj_Server.steamID){
+			if(playerList[_k].steamID != obj_Server.steamID){
 				steam_net_packet_send(playerList[_k].steamID, _b);
 			}
 		}
