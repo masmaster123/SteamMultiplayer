@@ -5,8 +5,8 @@ function paddle_movement(){
 	if (runKey == 0 and moveSpeed == 10) then moveSpeed = 5
 	
 	// Logic to apply movement
-	x += (rightKey - leftKey) * moveSpeed;
-	y += (downKey - upKey) * moveSpeed;
+	x += xInput * moveSpeed;
+	y += yInput * moveSpeed;
 	
 	// Logic for getting hit by bullet
 	if currentCooldown > 0 then --currentCooldown

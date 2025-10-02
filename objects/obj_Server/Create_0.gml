@@ -8,6 +8,8 @@ lobbyMemberID = 0;
 
 character = undefined;
 
+inbuff = buffer_create(16,buffer_grow,1);
+
 playerList[0] = {
 	steamID : steamID,
 	steamName : steamName,

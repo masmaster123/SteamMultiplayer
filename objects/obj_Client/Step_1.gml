@@ -47,6 +47,14 @@ while(steam_net_packet_receive()){
 				playerList[0].character = _inst;
 				character = _inst;
 				break;
+				
+		case NETWORK_PACKETS.SERVER_PLAYER_INPUT:
+			recieve_player_input(inbuff); // Update keypresses
+			break;
+		
+		
+		
+		
 		default:
 			show_debug_message("Unknown packet received");
 			break;
