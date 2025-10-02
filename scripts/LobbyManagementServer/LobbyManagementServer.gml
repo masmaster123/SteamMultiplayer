@@ -86,8 +86,8 @@ function send_player_input_to_clients(_player_input){
 function send_player_positions(){
 	for(var _i =0; _i < array_length(playerList); _i++){
 		var _player = playerList[_i];
-		if(player.character == undefined) then continue;
-		if(player.steamID == undefined) then continue;
+		if(_player.character == undefined) then continue;
+		if(_player.steamID == undefined) then continue;
 		
 		var _b = buffer_create(13,buffer_fixed,1); // 1+8+2+2
 		buffer_write(_b,buffer_u8,NETWORK_PACKETS.PLAYER_POSITION);//1
